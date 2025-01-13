@@ -9,6 +9,9 @@ import LandingWhyChoose from "../LandingComponents/LandingWhyChoose";
 import LandingTestimonial from "../LandingComponents/LandingTestimonial";
 import LandingContact from "../LandingComponents/LandingContact";
 import BlogFive from "../components/BlogFive";
+import TestimonialFour from "../components/TestimonialFour";
+import ProcessTwo from "../components/ProcessTwo";
+import FaqThree from "../components/FaqThree";
 
 const LandingPage = ({ page }) => {
   let [active, setActive] = useState(true);
@@ -32,12 +35,14 @@ const LandingPage = ({ page }) => {
         <LandingService page={page} />
       </div>
       <div id="why-choose">
-        <LandingWhyChoose page={page} />
+        <ProcessTwo />
       </div>
       <div id="testimonial">
-        <LandingTestimonial page={page} />
+        <TestimonialFour />
       </div>
       <BlogFive />
+      <FaqThree />
+
       <div id="contact" className="bg-dark2 space-top">
         <LandingContact />
       </div>

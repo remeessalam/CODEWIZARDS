@@ -40,13 +40,13 @@ const App = () => {
           <Route exact path="/contact" element={<Contact />} />
           <Route
             exact
-            path="/rpa-development"
-            element={<LandingPage page="rpa" />}
+            path="/web-development"
+            element={<LandingPage page="web" />}
           />
           <Route
             exact
-            path="/ai-calling-development"
-            element={<LandingPage page="ai" />}
+            path="/app-development"
+            element={<LandingPage page="app" />}
           />
           <Route exact path="*" element={<Error />} />
         </Routes>

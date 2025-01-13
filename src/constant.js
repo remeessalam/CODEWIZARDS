@@ -23,16 +23,17 @@ import itstrategy from "./assets/image/services/itstrategy.jpg";
 import itmanagement from "./assets/image/services/itmanagement.jpg";
 import game from "./assets/image/services/game.jpg";
 
-// ai services image
-import inbound from "./assets/image/landingpage/inbound.jpg";
-import outbound from "./assets/image/landingpage/outbound.jpg";
+// web development image
+import ecommerce from "./assets/image/landingpage/ecommerce.jpg";
+import socialmedia from "./assets/image/landingpage/socialmedia.jpg";
+import landingpage from "./assets/image/landingpage/landingpage.jpg";
+import customer from "./assets/image/landingpage/custome.jpg";
 
-//rpa service image
-import automation from "./assets/image/landingpage/automation.jpg";
-import data from "./assets/image/landingpage/data.jpg";
-import invoice from "./assets/image/landingpage/invoice.jpg";
-import customer from "./assets/image/landingpage/cutomer.jpg";
-import compliance from "./assets/image/landingpage/compliance.jpg";
+//app development  image
+import iosapp from "./assets/image/landingpage/iosapp.jpg";
+import androidapp from "./assets/image/landingpage/androidapp.jpg";
+import flutterapp from "./assets/image/landingpage/flutterapp.jpg";
+import hybridapp from "./assets/image/landingpage/hybridapp.jpg";
 export const routes = [
   {
     name: "Home",
@@ -76,58 +77,6 @@ export const companyDetails = {
   address:
     "Bhishti Mohalla, Army Head Quarter, Indore, Indore, Madhya Pradesh, India, 452006",
 };
-
-// export const servicess = [
-//   {
-//     id: 1,
-//     img: rpa,
-//     title: "Robotic Process Automation (RPA)",
-//     description:
-//       "Simplify your operations and reduce errors with our RPA solutions. We help businesses automate repetitive tasks, optimize workflows, and boost productivity, so you can focus on strategic growth.",
-//   },
-//   {
-//     id: 2,
-//     img: custome,
-//     title: "AI Calling Agency",
-//     description:
-//       "Transform how your business connects with customers. Our AI calling solutions handle inbound and outbound calls seamlessly, from booking appointments to qualifying leads. Save time, reduce costs, and increase close rates with our cutting-edge AI agents.",
-//   },
-//   {
-//     id: 3,
-//     img: ai,
-//     title: "Artificial Intelligence Development",
-//     description:
-//       "Leverage the power of AI to solve complex challenges, enhance decision-making, and unlock new opportunities. Our AI solutions are designed to integrate effortlessly into your processes, delivering measurable results.",
-//   },
-//   {
-//     id: 4,
-//     img: web,
-//     title: "Web Development",
-//     description:
-//       "Your website is more than just a digital presence—it’s a gateway to growth. We create dynamic, responsive, and user-friendly websites that leave a lasting impression on your audience.",
-//   },
-//   {
-//     id: 5,
-//     img: app,
-//     title: "Mobile App Development",
-//     description:
-//       "Connect with your customers wherever they are. Our mobile app development team builds high-performing, intuitive applications that deliver seamless user experiences across all devices.",
-//   },
-//   {
-//     id: 6,
-//     img: chat,
-//     title: "Chatbot Development",
-//     description:
-//       "Enhance customer interactions and streamline support with intelligent chatbot solutions. From answering queries to driving engagement, our chatbots provide instant, personalized responses tailored to your business needs.",
-//   },
-//   {
-//     id: 7,
-//     img: ml,
-//     title: "Machine Learning Solutions",
-//     description:
-//       "Transform your data into actionable insights with our machine learning expertise. We develop models that enable smarter decisions, improve operations, and uncover hidden opportunities in your data.",
-//   },
-// ];
 
 export const ourprocess = [
   {
@@ -347,57 +296,65 @@ export const faqs = [
   },
 ];
 
-export const rpaservices = [
+export const webservices = [
   {
     id: 1,
-    img: automation,
-    title: "Process Automation",
+    img: ecommerce,
+    title: "E-commerce Website Development",
     description:
-      "Optimize workflows by automating repetitive tasks, boosting speed and consistency.",
+      "Build responsive and scalable e-commerce platforms that enhance user experience and drive sales.",
   },
   {
     id: 2,
-    img: data,
-    title: "Data Management",
+    img: socialmedia,
+    title: "Social Media Website Development",
     description:
-      "Simplify data entry, validation, and integration across systems to improve operational efficiency.",
+      "Create dynamic social media platforms with engaging features that foster interaction and community building.",
   },
   {
     id: 3,
-    img: invoice,
-    title: "Invoice Automation",
+    img: landingpage,
+    title: "Landing Page Design & Development",
     description:
-      "Streamline billing processes for faster, error-free invoicing and better cash flow management.",
+      "Design visually compelling landing pages that capture leads, increase conversions, and boost your digital marketing efforts.",
   },
   {
     id: 4,
     img: customer,
-    title: "Customer Interaction Automation",
+    title: "Customer-Focused Website Solutions",
     description:
-      "Deploy bots to handle routine inquiries, freeing up your team for more complex customer needs.",
-  },
-  {
-    id: 5,
-    img: compliance,
-    title: "Compliance and Reporting Automation",
-    description:
-      "Ensure regulatory compliance and generate accurate reports effortlessly with automated solutions.",
+      "Develop custom websites tailored to your brand and customer needs, ensuring a seamless user experience and optimal performance.",
   },
 ];
-export const aiCalling = [
+
+export const appDevelopment = [
   {
     id: 1,
-    img: inbound,
-    title: "Inbound Calling Support",
+    img: iosapp,
+    title: "iOS App Development",
     description:
-      "Let our AI agents manage your inbound calls with accuracy and professionalism. From answering customer questions to booking appointments, we ensure every interaction reflects your brand’s excellence while giving your team more time to focus on growth.",
+      "We specialize in building seamless and high-performance iOS applications tailored to your business needs, ensuring a smooth user experience and integration with the latest Apple technologies.",
   },
   {
     id: 2,
-    img: outbound,
-    title: "Outbound Calling Services",
+    img: androidapp,
+    title: "Android App Development",
     description:
-      "Our outbound AI agents are skilled at cold calling potential leads, qualifying prospects, and scheduling appointments. We eliminate the manual effort and guesswork, so your sales team can concentrate on what they do best—closing deals.",
+      "Our Android app development services create powerful and intuitive mobile apps for Android devices, ensuring they are fast, secure, and optimized for a wide range of devices.",
+  },
+  {
+    id: 3,
+    img: flutterapp,
+    title: "Flutter App Development",
+    description:
+      "Harness the power of Flutter to build cross-platform apps that run seamlessly on both iOS and Android, offering performance, flexibility, and native-like user experiences.",
+  },
+  {
+    id: 4,
+    img: hybridapp,
+    title: "Hybrid App Development",
+    description:
+      "Create hybrid mobile apps that combine the best of native and web technologies, offering cost-effective, scalable, and high-performance apps for both iOS and Android platforms.",
   },
 ];
 

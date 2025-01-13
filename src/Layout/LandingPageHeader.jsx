@@ -37,9 +37,9 @@ const LandingPageHeader = () => {
       menuExpand[i].addEventListener("click", sideMenuExpand);
     }
     window.onscroll = () => {
-      if (window.pageYOffset < 250) {
+      if (window.scrollY < 250) {
         setScroll(false);
-      } else if (window.pageYOffset > 250) {
+      } else if (window.scrollY > 250) {
         setScroll(true);
       }
       return () => (window.onscroll = null);
@@ -102,9 +102,9 @@ const LandingPageHeader = () => {
               <li onClick={() => handleScrollToSection("contact")}>
                 <Link to="#">Contact</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="#">Blog</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -112,7 +112,8 @@ const LandingPageHeader = () => {
 
       {/* Header Area */}
       <header className="nav-header header-layout5">
-        <div className={`sticky-wrapper ${scroll && "sticky"}`}>
+        <div className={`sticky-wrapper sticky`}>
+          {/* <div className={`sticky-wrapper ${scroll && "sticky"}`}> */}
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
@@ -141,9 +142,9 @@ const LandingPageHeader = () => {
                     <li onClick={() => handleScrollToSection("contact")}>
                       <Link to="#">Contact</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="#">Blog</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
                 <div className="navbar-right d-inline-flex d-lg-none">

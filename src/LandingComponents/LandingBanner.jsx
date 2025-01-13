@@ -10,18 +10,18 @@ const LandingBanner = ({ page }) => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="hero-style5 text-center">
-                {page === "rpa" ? (
+                {page === "web" ? (
                   <>
                     <h1 className="hero-title text-white">
                       Revolutionizing Your Business with
-                      <span className="text-theme2"> RPA</span>
+                      <span className="text-theme2"> Web Development</span>
                     </h1>
                     <p className="hero-text text-white">
-                      Accelerate innovation with cutting-edge Robotic Process
-                      Automation (RPA) solutions designed to streamline
-                      workflows, reduce manual tasks, and boost productivity,
-                      enabling your business to achieve new heights of
-                      efficiency and growth.
+                      Transform your online presence with cutting-edge web
+                      development solutions. From responsive websites to
+                      full-stack web applications, we deliver exceptional user
+                      experiences and streamline your business processes to help
+                      you stay ahead in the digital world.
                     </p>
                   </>
                 ) : (
@@ -30,16 +30,15 @@ const LandingBanner = ({ page }) => {
                       Revolutionizing Your Business with
                       <span className="text-theme2">
                         {" "}
-                        AI Calling Development
+                        Mobile App Development
                       </span>
                     </h1>
                     <p className="hero-text text-white">
-                      Transform your customer interactions with cutting-edge AI
-                      calling solutions. Our AI-driven calling systems enhance
-                      communication, automate responses, and provide intelligent
-                      insights, empowering your business to deliver faster, more
-                      personalized customer experiences while boosting
-                      efficiency and growth.
+                      Empower your business with custom mobile apps that engage
+                      users and deliver exceptional performance. Our app
+                      development services create seamless experiences across
+                      all devices, helping you reach your customers wherever
+                      they are and stay connected.
                     </p>
                   </>
                 )}
@@ -49,9 +48,9 @@ const LandingBanner = ({ page }) => {
               <div className="hero-thumb5-1">
                 <img
                   src={
-                    page === "rpa"
-                      ? "assets/img/landingpage/rpa/rpabanner.jpg"
-                      : "assets/img/landingpage/ai/aibanner.jpg"
+                    page === "web"
+                      ? "assets/img/landingpage/web/webbanner.jpg"
+                      : "assets/img/landingpage/app/appbanner.jpg"
                   }
                   alt="img"
                 />
@@ -65,3 +64,14 @@ const LandingBanner = ({ page }) => {
 };
 
 export default LandingBanner;
+
+{
+  /* <img
+src={
+  page === "web"
+    ? "assets/img/landingpage/web/webbanner.jpg"
+    : "assets/img/landingpage/app/appbanner.jpg"
+}
+alt="img"
+/> */
+}

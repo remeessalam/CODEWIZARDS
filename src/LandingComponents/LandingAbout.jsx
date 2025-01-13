@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+
 const LandingAbout = ({ page }) => {
   return (
     <section className="bg-dark2">
@@ -14,28 +15,13 @@ const LandingAbout = ({ page }) => {
                 <div className="img1">
                   <img
                     src={
-                      page === "rpa"
-                        ? "assets/img/landingpage/rpa/rpaabout.jpg"
-                        : "assets/img/landingpage/ai/landingabout.jpg"
+                      page === "web"
+                        ? "assets/img/landingpage/web/webabout.jpg"
+                        : "assets/img/landingpage/app/appabout.jpg"
                     }
                     alt="img"
                   />
                 </div>
-                {/* <div className="about-counter-wrap jump-reverse">
-                  <h3 className="about-counter">
-                    <TrackVisibility once>
-                      {({ isVisible }) =>
-                        isVisible && (
-                          <span className="counter-number">
-                            <CountUp delay={0} start={0} end={10} />
-                            K+
-                          </span>
-                        )
-                      }
-                    </TrackVisibility>
-                  </h3>
-                  <p className="sec-desc">Client Review</p>
-                </div> */}
               </div>
             </div>
             <div className="col-xl-6">
@@ -45,13 +31,13 @@ const LandingAbout = ({ page }) => {
                   About Us
                 </span>
                 <h2 className="sec-title style1 text-white">
-                  {page === "rpa"
-                    ? "Unlock Efficiency with Robotic Process Automation (RPA)"
-                    : "Simplifying Communication. Accelerating Success."}
+                  {page === "web"
+                    ? "Building Innovative Web Solutions for Your Business"
+                    : "Developing Powerful Mobile Apps for a Connected Future"}
                 </h2>
-                {page === "rpa"
-                  ? "At Cognitek, we’re dedicated to helping businesses simplify their operations and achieve more. With our Robotic Process Automation (RPA) services, you can eliminate repetitive tasks, reduce errors, and enhance productivity. By automating key processes, we enable your team to focus on driving innovation and growth while saving time and resources."
-                  : "At Cognitek, we specialize in transforming how businesses manage their calls. Our AI-powered calling agency takes the complexity out of customer communication, delivering smarter, faster, and more cost-effective solutions. Whether you’re handling inbound inquiries or reaching out to new leads, we’ve got you covered."}
+                {page === "web"
+                  ? "At Cognitek, we specialize in creating custom web solutions that enhance your online presence and streamline business operations. Whether you need a modern, responsive website or a full-stack web application, our team of experts is dedicated to delivering seamless, user-friendly experiences that meet your unique needs."
+                  : "At Cognitek, we are committed to developing mobile applications that empower businesses to engage with their audience in innovative ways. Our expert team builds intuitive, high-performance mobile apps that help you reach your customers wherever they are, with seamless functionality and an exceptional user experience."}
               </div>
               <div className="btn-wrap">
                 <Link to="/about" className="global-btn style3">
