@@ -76,7 +76,7 @@ const Header = () => {
 
       <div className={`mobile-menu-wrapper ${active ? "body-visible" : ""}`}>
         <div className="mobile-menu-area">
-          <div className="mobile-logo">
+          <div className="mobile-logo" style={{ backgroundColor: "#3c3c4a" }}>
             <Link to="/">
               <img
                 src="assets/img/logo.png"

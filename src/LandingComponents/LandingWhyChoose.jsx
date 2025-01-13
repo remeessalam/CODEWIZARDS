@@ -7,7 +7,7 @@ const LandingWhyChoose = ({ page }) => {
   return (
     <section className="whychoose-section bg-dark2">
       <div className="whychoose-container">
-        <h2 className="whychoose-title">Why Choose Cognitek?</h2>
+        <h2 className="whychoose-title">Why Choose CODEWIZARDS INFOTECH?</h2>
         <div className="whychoose-grid">
           {whychoose.map((obj) => (
             <div key={obj.id} className="whychoose-item">

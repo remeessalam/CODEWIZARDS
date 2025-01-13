@@ -404,104 +404,104 @@ export const whyChooseRPA = [
       "From planning to implementation and beyond, we’re with you every step of the way.",
   },
 ];
-export const rpaTestimonials = [
-  {
-    id: 1,
-    quote:
-      "Cognitek transformed the way we handle our workflows. What used to take hours is now done in minutes, with zero errors. Their RPA solution has truly elevated our operational efficiency.",
-    author: "Mark L.",
-    position: "Operations Manager",
-    company: "Streamline Corp.",
-  },
-  {
-    id: 2,
-    quote:
-      "Thanks to Cognitek, we automated our invoicing system, cutting processing time by 70% and improving accuracy across the board. It’s been a game-changer for our finance team!",
-    author: "Emily R.",
-    position: "CFO",
-    company: "NovaFinTech",
-  },
-  {
-    id: 3,
-    quote:
-      "The RPA tools from Cognitek have simplified our data entry and integration tasks. We’ve seen a dramatic improvement in consistency and saved countless hours of manual work.",
-    author: "Sophia T.",
-    position: "Data Manager",
-    company: "DigiFlow",
-  },
-  {
-    id: 4,
-    quote:
-      "Our customer service has improved significantly since implementing Cognitek RPA solution. Routine inquiries are handled instantly, allowing our team to focus on resolving complex issues. Customer satisfaction is at an all-time high!",
-    author: "Jason M.",
-    position: "Customer Experience Lead",
-    company: "BrightLine Support",
-  },
-  {
-    id: 5,
-    quote:
-      "Working with Cognitek was seamless. Their team identified inefficiencies in our processes and implemented automation that increased our productivity by 40%. We couldn’t be happier with the results!",
-    author: "Linda K.",
-    position: "CEO",
-    company: "OptiWork Enterprises",
-  },
-];
-export const aiTestimonials = [
-  {
-    id: 1,
-    industry: "Real Estate",
-    quote:
-      "Since we started using Cognitek at UrbanNest Realty, managing inquiries has become effortless. Their AI books property viewings efficiently, and our team can now focus on closing deals rather than chasing leads. We’ve seen a 30% increase in successful showings!",
-    author: "Sarah M.",
-    position: "Lead Agent",
-    company: "UrbanNest Realty",
-  },
-  {
-    id: 2,
-    industry: "Healthcare",
-    quote:
-      "At Healthy Horizons Clinic, handling patient calls used to be chaotic. Cognitek streamlined our appointment system, ensuring every patient is attended to promptly. Our staff is happier, and patient satisfaction is at an all-time high!",
-    author: "Dr. Emily T.",
-    position: "Clinic Manager",
-    company: "Healthy Horizons Clinic",
-  },
-  {
-    id: 3,
-    industry: "Retail",
-    quote:
-      "Cognitek has been a huge asset to ShopSmart Electronics. Their AI calling service manages customer support and post-purchase feedback with such ease. It’s like having an extra team that never sleeps. Highly recommend!",
-    author: "John L.",
-    position: "Owner",
-    company: "ShopSmart Electronics",
-  },
-  {
-    id: 4,
-    industry: "Hospitality",
-    quote:
-      "At Royal Palm Resort, guest satisfaction is our priority. Cognitek’s AI agents handle reservations and inquiries flawlessly, leaving our team more time to focus on creating memorable experiences for our guests. We’ve seen a 20% boost in positive reviews!",
-    author: "Raj P.",
-    position: "Manager",
-    company: "Royal Palm Resort",
-  },
-  {
-    id: 5,
-    industry: "Beauty and Wellness",
-    quote:
-      "Cognitek completely transformed scheduling for Bliss Haven Spa. Clients love the automated reminders, and our no-shows have dropped significantly. Their AI calling service keeps our calendar running smoothly, letting us focus on pampering our clients.",
-    author: "Lila R.",
-    position: "Owner",
-    company: "Bliss Haven Spa",
-  },
-  {
-    id: 6,
-    industry: "Technology",
-    quote:
-      "Partnering with Cognitek at CodeTech Innovations was the best decision we made this year. Their outbound AI agents qualify leads with incredible precision and have boosted our demo bookings by 40%. It’s a game-changer for SaaS companies.",
-    author: "Alex W.",
-    position: "Sales Manager",
-    company: "CodeTech Innovations",
-  },
-];
+// export const rpaTestimonials = [
+//   {
+//     id: 1,
+//     quote:
+//       "CODEWIZARDS INFOTECH transformed the way we handle our workflows. What used to take hours is now done in minutes, with zero errors. Their RPA solution has truly elevated our operational efficiency.",
+//     author: "Mark L.",
+//     position: "Operations Manager",
+//     company: "Streamline Corp.",
+//   },
+//   {
+//     id: 2,
+//     quote:
+//       "Thanks to CODEWIZARDS INFOTECH, we automated our invoicing system, cutting processing time by 70% and improving accuracy across the board. It’s been a game-changer for our finance team!",
+//     author: "Emily R.",
+//     position: "CFO",
+//     company: "NovaFinTech",
+//   },
+//   {
+//     id: 3,
+//     quote:
+//       "The RPA tools from CODEWIZARDS INFOTECH have simplified our data entry and integration tasks. We’ve seen a dramatic improvement in consistency and saved countless hours of manual work.",
+//     author: "Sophia T.",
+//     position: "Data Manager",
+//     company: "DigiFlow",
+//   },
+//   {
+//     id: 4,
+//     quote:
+//       "Our customer service has improved significantly since implementing CODEWIZARDS INFOTECH RPA solution. Routine inquiries are handled instantly, allowing our team to focus on resolving complex issues. Customer satisfaction is at an all-time high!",
+//     author: "Jason M.",
+//     position: "Customer Experience Lead",
+//     company: "BrightLine Support",
+//   },
+//   {
+//     id: 5,
+//     quote:
+//       "Working with CODEWIZARDS INFOTECH was seamless. Their team identified inefficiencies in our processes and implemented automation that increased our productivity by 40%. We couldn’t be happier with the results!",
+//     author: "Linda K.",
+//     position: "CEO",
+//     company: "OptiWork Enterprises",
+//   },
+// ];
+// export const aiTestimonials = [
+//   {
+//     id: 1,
+//     industry: "Real Estate",
+//     quote:
+//       "Since we started using CODEWIZARDS INFOTECH at UrbanNest Realty, managing inquiries has become effortless. Their AI books property viewings efficiently, and our team can now focus on closing deals rather than chasing leads. We’ve seen a 30% increase in successful showings!",
+//     author: "Sarah M.",
+//     position: "Lead Agent",
+//     company: "UrbanNest Realty",
+//   },
+//   {
+//     id: 2,
+//     industry: "Healthcare",
+//     quote:
+//       "At Healthy Horizons Clinic, handling patient calls used to be chaotic. CODEWIZARDS INFOTECH streamlined our appointment system, ensuring every patient is attended to promptly. Our staff is happier, and patient satisfaction is at an all-time high!",
+//     author: "Dr. Emily T.",
+//     position: "Clinic Manager",
+//     company: "Healthy Horizons Clinic",
+//   },
+//   {
+//     id: 3,
+//     industry: "Retail",
+//     quote:
+//       "CODEWIZARDS INFOTECH has been a huge asset to ShopSmart Electronics. Their AI calling service manages customer support and post-purchase feedback with such ease. It’s like having an extra team that never sleeps. Highly recommend!",
+//     author: "John L.",
+//     position: "Owner",
+//     company: "ShopSmart Electronics",
+//   },
+//   {
+//     id: 4,
+//     industry: "Hospitality",
+//     quote:
+//       "At Royal Palm Resort, guest satisfaction is our priority. CODEWIZARDS INFOTECH’s AI agents handle reservations and inquiries flawlessly, leaving our team more time to focus on creating memorable experiences for our guests. We’ve seen a 20% boost in positive reviews!",
+//     author: "Raj P.",
+//     position: "Manager",
+//     company: "Royal Palm Resort",
+//   },
+//   {
+//     id: 5,
+//     industry: "Beauty and Wellness",
+//     quote:
+//       "CODEWIZARDS INFOTECH completely transformed scheduling for Bliss Haven Spa. Clients love the automated reminders, and our no-shows have dropped significantly. Their AI calling service keeps our calendar running smoothly, letting us focus on pampering our clients.",
+//     author: "Lila R.",
+//     position: "Owner",
+//     company: "Bliss Haven Spa",
+//   },
+//   {
+//     id: 6,
+//     industry: "Technology",
+//     quote:
+//       "Partnering with CODEWIZARDS INFOTECH at CodeTech Innovations was the best decision we made this year. Their outbound AI agents qualify leads with incredible precision and have boosted our demo bookings by 40%. It’s a game-changer for SaaS companies.",
+//     author: "Alex W.",
+//     position: "Sales Manager",
+//     company: "CodeTech Innovations",
+//   },
+// ];
 
 export const services = [
   // {

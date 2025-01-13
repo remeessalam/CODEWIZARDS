@@ -36,8 +36,8 @@ const LandingAbout = ({ page }) => {
                     : "Developing Powerful Mobile Apps for a Connected Future"}
                 </h2>
                 {page === "web"
-                  ? "At Cognitek, we specialize in creating custom web solutions that enhance your online presence and streamline business operations. Whether you need a modern, responsive website or a full-stack web application, our team of experts is dedicated to delivering seamless, user-friendly experiences that meet your unique needs."
-                  : "At Cognitek, we are committed to developing mobile applications that empower businesses to engage with their audience in innovative ways. Our expert team builds intuitive, high-performance mobile apps that help you reach your customers wherever they are, with seamless functionality and an exceptional user experience."}
+                  ? "At CODEWIZARDS INFOTECH, we specialize in creating custom web solutions that enhance your online presence and streamline business operations. Whether you need a modern, responsive website or a full-stack web application, our team of experts is dedicated to delivering seamless, user-friendly experiences that meet your unique needs."
+                  : "At CODEWIZARDS INFOTECH, we are committed to developing mobile applications that empower businesses to engage with their audience in innovative ways. Our expert team builds intuitive, high-performance mobile apps that help you reach your customers wherever they are, with seamless functionality and an exceptional user experience."}
               </div>
               <div className="btn-wrap">
                 <Link to="/about" className="global-btn style3">
