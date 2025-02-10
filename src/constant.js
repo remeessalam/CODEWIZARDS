@@ -71,11 +71,13 @@ export const routes = [
 
 export const companyDetails = {
   name: "CODEWIZARDS INFOTECH",
-  email: "example@abc.com",
+  email: "codewizardsinfotech@gmail.com",
   phone: "+91-7898156263",
   whatsapp: "7898156263",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=%2B917898156263&text&type=phone_number&app_absent=0",
   address:
-    "Bhishti Mohalla, Army Head Quarter, Indore, Indore, Madhya Pradesh, India, 452006",
+    "Ujjain - Indore Rd, Mari Mata Square, Indore, Madhya Pradesh 452006",
 };
 
 export const ourprocess = [

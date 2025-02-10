@@ -1,11 +1,45 @@
+import ReactPlayer from "react-player";
+import video from "../assets/video/homebanner.mp4";
 const LandingBanner = ({ page }) => {
   return (
     <section className="bg-dark2">
       <div
         className="hero-wrapper hero-5"
         id="hero"
-        style={{ backgroundImage: "url(assets/img/hero/hero_bg_5_1.jpg)" }}
+        // style={{ backgroundImage: "url(assets/img/hero/hero_bg_5_1.jpg)" }}
+        style={{ position: "relative" }}
       >
+        <ReactPlayer
+          url={video}
+          playing
+          loop
+          muted
+          width="100%"
+          height="100vh"
+          objectFit="cover"
+          config={{
+            file: {
+              attributes: {
+                style: {
+                  objectFit: "cover",
+                  width: "100vw",
+                  height: "100vh",
+                  transform: "scaleX(-1)",
+                },
+              },
+            },
+          }}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            zIndex: -1,
+            objectFit: "cover !important",
+            width: "100%",
+            height: "100vh",
+          }}
+        />
+
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">

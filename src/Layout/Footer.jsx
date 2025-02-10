@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { companyDetails, routes } from "../constant";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -66,6 +67,17 @@ const Footer = () => {
                       <div className="contact-grid-details">
                         <h6>
                           <Link to="#">{companyDetails.phone}</Link>
+                          <p />
+                        </h6>
+                      </div>
+                    </div>
+                    <div className="widget-contact-grid">
+                      <BsWhatsapp style={{ color: "#f26f16" }} />
+                      <div className="contact-grid-details">
+                        <h6>
+                          <Link to={companyDetails.whatsapplink}>
+                            +91-{companyDetails.whatsapp}
+                          </Link>
                           <p />
                         </h6>
                       </div>
