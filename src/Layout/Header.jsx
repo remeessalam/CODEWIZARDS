@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { companyDetails } from "../constant";
-
+import logo from "../assets/logo.png";
 const Header = () => {
   const [active, setActive] = useState(false);
   const [search, setSearch] = useState(false);
@@ -123,6 +123,7 @@ const Header = () => {
                 <div className="header-logo">
                   <Link to="/">
                     <img
+                      // scr={logo}
                       src="assets/img/logo.png"
                       alt="logo"
                       style={{ height: "4.25rem" }}
